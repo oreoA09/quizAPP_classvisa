@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Coding Quiz App</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<!-- FontAwesome CDN links for icons	 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<!-- 	Start Button -->
+	<div class="startBtn">
+		<button>Start Quiz</button>
+	</div>
+
+	<!-- Rules box -->
+	<div class="box active">
+		<div class="title">
+			<span>Some Rules of this Quiz </span>
+		</div>
+
+		<div class="list">
+			<p class="item">1. You will have only <span>15 seconds</span> per each questions.</p>
+			<p class="item">2. Once you select your answer, you can't reselect</p>
+			<p class="item">3. You cant select any option once time goes off</p>
+			<p class="item">4. You can't exit from the Quiz while you're playing</p>
+			<p class="item">5. You'll get points on the basis of your correct answers</p>
+		</div>
+
+		<div class="btns">
+			<button class="quit">Exit Quiz</button>
+			<button class="start">Continue</button>
+		</div>
+
+	</div>
+
+
+	<!-- Question box -->
+	<div class="questionBox active">
+		<header>
+			<div class="appTitle">Coding Quiz Application</div>
+			<div class="timer">
+				<span class="timerText">Time Left:</span>
+				<span>&emsp;</span>
+				<span class="counter">15</span>
+			</div>
+		</header>
+
+		<section>
+			<div class="question">
+				<!-- 				<span>What does HTML stand for?</span> -->
+			</div>
+
+			<div class="optionList">
+				<!-- 				<div class="option">
+					<span>Hyper Text Preprocessor</span>
+					<i class="fa fa-check tick"></i>
+				</div>
+
+				<div class="option">
+					<span>Hyper Text Markup Language</span>
+					<i class="fa fa-times cross"></i> -->
+				<!-- 				</div>
+
+				<div class="option">
+					<span>Hyper Text Multiple Language</span> -->
+				<!-- 					<i class="fa fa-times"></i> -->
+				<!-- 				</div>
+
+				<div class="option">
+					<span>Hyper Tool Multi Language</span> -->
+				<!-- 					<i class="fa fa-times"></i> -->
+				<!-- 			</div> -->
+			</div>
+		</section>
+
+		<!-- 		Quiz footer -->
+		<footer>
+			<p class="total">
+				<!-- 				<span>2</span>
+				<span>of</span>
+				<span>5</span>
+				<span>Questions</span> -->
+			</p>
+			<button class="next">Next Question</button>
+		</footer>
+	</div>
+
+
+	<!-- 	Result Box -->
+	<div class="resultBox active">
+		<div>
+			<i class="fa fa-check tick"></i>
+		</div>
+
+		<div class="completeText">Quiz Completed!</div>
+		<div class="scoreText">
+			You got
+			<span class="score"> 2 </span>
+			<span>out of </span>
+			<span>5 </span>
+			in total.
+		</div>
+
+		<!-- 		<div>
+			<span> &#128542; Don't worry you can try again! &#128542;</span>
+		</div> -->
+
+		<!-- 		<div>
+			<span> &#128526; Great job! Keep learning. &#128526;</span>
+		</div> -->
+
+		<div class="btns">
+			<button class="restart">Replay</button>
+			<button class="quit">Exit Quiz</button>
+		</div>
+	</div>
+
+
+	<script src="script.js"></script>
+	<script src="questions.js"></script>
+</body>
+
+</html>
