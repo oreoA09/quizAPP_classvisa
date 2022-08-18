@@ -15,6 +15,18 @@ The following requirements cover what the app does, from the user's perspective:
 7. Users are shown their overall score at the end of the quiz. In other words, how many questions they got right out of the total questions asked. 
 8. Users are able to restart a new quiz.
 
+### UX Wireframe:
+![image](https://user-images.githubusercontent.com/45500876/185475049-f9e5ffb5-fb72-4548-b099-4dc53c33e83d.png)
+
+![image](https://user-images.githubusercontent.com/45500876/185475123-2e98a915-32ed-476b-83aa-2122075d3fc3.png)
+
+![image](https://user-images.githubusercontent.com/45500876/185475184-3a918114-9202-42ee-af8a-dbf753162b3f.png)
+
+![image](https://user-images.githubusercontent.com/45500876/185475294-1929740a-0d83-4c4e-9bda-c2e469dbbbb0.png)
+
+![image](https://user-images.githubusercontent.com/45500876/185475331-a96a1a9d-4316-4481-a6a3-cbd49183914b.png)
+
+
 ### Technical requirements for this quiz app:
 1. Include single-purpose template generation functions.
 2. Include single-purpose event handler functions.
